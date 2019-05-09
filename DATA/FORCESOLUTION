@@ -3,7 +3,7 @@ time shift:     0.0000
 f0:             4.0
 latorUTM:       1000.0
 longorUTM:      1000.0
-depth:           0.01
+depth:           0.02
 factor force source:             1.d10
 component dir vect source E:     0.d0
 component dir vect source N:     0.d0
