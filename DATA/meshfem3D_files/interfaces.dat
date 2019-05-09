@@ -8,10 +8,10 @@
 #
 # interface number 1 
 # SUPPRESS_UTM_PROJECTION  NXI  NETA LONG_MIN   LAT_MIN    SPACING_XI SPACING_ETA
- .true.                    501   21       0.d0     1600.d0    20.d0       40.d0
+ .true.                    501   21       0.d0     0.d0    4.d0       100.d0
  bathy.dat
 # interface number 2 (topography, top of the mesh)
- .true.                      2    2       0.d0     1600.d0    10000.d0    800.d0
+ .true.                      2    2       0.d0     0.d0    2000.d0    2000.d0
  topo.dat
 # interface2.dat
 #
