@@ -5,8 +5,8 @@
 #-----------------------------------------------------------
 
 # coordinates of mesh block in latitude/longitude and depth in km
-LATITUDE_MIN                    = 1600.000000
-LATITUDE_MAX                    = 2400.000000
+LATITUDE_MIN                    = 0.000000
+LATITUDE_MAX                    = 600.000000
 LONGITUDE_MIN                   = 0.000000
 LONGITUDE_MAX                   = 10000.000000
 DEPTH_BLOCK_KM                  = 5.000000
