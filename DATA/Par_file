@@ -209,10 +209,10 @@ NTSTEP_BETWEEN_OUTPUT_SEISMOS   = 10000
 
 # decide if we save displacement, velocity, acceleration and/or pressure in forward runs (they can be set to true simultaneously)
 # currently pressure seismograms are implemented in acoustic (i.e. fluid) elements only
-SAVE_SEISMOGRAMS_DISPLACEMENT   = .true.
+SAVE_SEISMOGRAMS_DISPLACEMENT   = .false.
 SAVE_SEISMOGRAMS_VELOCITY       = .false.
 SAVE_SEISMOGRAMS_ACCELERATION   = .false.
-SAVE_SEISMOGRAMS_PRESSURE       = .false.   # currently implemented in acoustic (i.e. fluid) elements only
+SAVE_SEISMOGRAMS_PRESSURE       = .true.   # currently implemented in acoustic (i.e. fluid) elements only
 
 # save seismograms also when running the adjoint runs for an inverse problem
 # (usually they are unused and not very meaningful, leave this off in almost all cases)
@@ -222,7 +222,7 @@ SAVE_SEISMOGRAMS_IN_ADJOINT_RUN = .false.
 USE_BINARY_FOR_SEISMOGRAMS      = .false.
 
 # output seismograms in Seismic Unix format (binary with 240-byte-headers)
-SU_FORMAT                       = .true.
+SU_FORMAT                       = .false.
 
 # output seismograms in ASDF (requires asdf-library)
 ASDF_FORMAT                     = .false.
